@@ -7,6 +7,11 @@
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
+        # reverse linked list
+        # return new begging
+
+        # use prev
+
         prev = None
         curr = head
 
@@ -15,9 +20,7 @@ class Solution:
             curr = curr.next
             temp.next = prev
             prev = temp
-
+        
         return prev
-
-
-
+            
         
